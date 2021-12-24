@@ -12,7 +12,7 @@ def locationToAddress(location):
     """
     parameters = {
                     'location': location,
-                    'key': '689e4cd9c9ef6b3f2bac08904e31a3be'
+                    'key': 'YourKEYid'  # 填入你申请的ID
                  }
     base = 'http://restapi.amap.com/v3/geocode/regeo?'
     response = requests.get(base, parameters)
